@@ -15,6 +15,8 @@
 		362F6FF61F891765007C6755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362F6FF41F891765007C6755 /* LaunchScreen.storyboard */; };
 		362F70011F891765007C6755 /* Ideas2TechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F70001F891765007C6755 /* Ideas2TechTests.swift */; };
 		362F700C1F891765007C6755 /* Ideas2TechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F700B1F891765007C6755 /* Ideas2TechUITests.swift */; };
+		362F701A1F891CE8007C6755 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F70191F891CE7007C6755 /* MenuViewController.swift */; };
+		362F701C1F891D0B007C6755 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362F701B1F891D0B007C6755 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		362F70071F891765007C6755 /* Ideas2TechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ideas2TechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		362F700B1F891765007C6755 /* Ideas2TechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideas2TechUITests.swift; sourceTree = "<group>"; };
 		362F700D1F891765007C6755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362F70191F891CE7007C6755 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
+		362F701B1F891D0B007C6755 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewCell.swift; path = ../MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		362F6FE71F891764007C6755 /* Ideas2Tech */ = {
 			isa = PBXGroup;
 			children = (
+				362F701B1F891D0B007C6755 /* MenuTableViewCell.swift */,
+				362F70191F891CE7007C6755 /* MenuViewController.swift */,
 				362F6FE81F891764007C6755 /* AppDelegate.swift */,
 				362F6FEA1F891764007C6755 /* ViewController.swift */,
 				362F6FEC1F891764007C6755 /* Main.storyboard */,
@@ -265,6 +271,8 @@
 				362F6FEB1F891764007C6755 /* ViewController.swift in Sources */,
 				362F6FF11F891765007C6755 /* Ideas2Tech.xcdatamodeld in Sources */,
 				362F6FE91F891764007C6755 /* AppDelegate.swift in Sources */,
+				362F701A1F891CE8007C6755 /* MenuViewController.swift in Sources */,
+				362F701C1F891D0B007C6755 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

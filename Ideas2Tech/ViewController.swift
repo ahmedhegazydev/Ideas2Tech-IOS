@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +21,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnViewList(_ sender: UIBarButtonItem) {
+        
+        
+        //show the menu
+        
+        
+    }
 }
 
